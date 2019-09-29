@@ -1,8 +1,17 @@
 @charset "UTF-8";
+@font-face { 
+    font-family: helvetica; 
+    src: url("./font/Helvetica.ttc"); 
+  } 
+  li { 
+    font-family: SketchRockwell; 
+    font-size: 3.2em; 
+  }
 head{
     padding: 0px;
 }
 h2{
+    font-family:Helvetica;
     font-size: auto;
     background-color: black;
     text-align: center;
