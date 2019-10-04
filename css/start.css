@@ -22,7 +22,8 @@
 }
 
 #menu_title:hover{
-    background-color:red;
+	background-color:red;
+	transition: background-color 0.5s;
 }
 a{
 	margin-right: 50px;
@@ -59,6 +60,7 @@ a{
 .nav li ul li a:hover{
 	background-color: white;
 	color: black;
+
 }
 .nav ul li ul{
 	display: none;
@@ -97,12 +99,13 @@ body{
 	background-size: contain;
 	background-attachment: scroll;
 	opacity: 0.4;
-	
+	transition: background-image 5s;
 }
 .bar:hover{
 	background-image: url("../images/LOGO_long_black.png");
     background-size: contain;
 	background-attachment: scroll;
+	transition: background-image 5s;
 
 }
 .inbar{
