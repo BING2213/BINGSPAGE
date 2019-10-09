@@ -1,9 +1,187 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Untitled Document</title>
+    <title>BING2213</title>
+    <link rel="Shortcut Icon" href="../icon/icon.ico" type="image/icon" />
+	<link rel="stylesheet" href="../css/start.css">
+    <script>
+            var vg=0;
+            var va=0;
+            function showgamelist(){
+                if (vg==0)
+                {document.getElementById("listgame").style.display="block";vg=1;}
+                else if (vg==1){document.getElementById("listgame").style.display="none";vg=0;}
+            }
+            function showarticlelist(){
+                if (va==0)
+                {document.getElementById("listarticle").style.display="block";va=1;}
+                else if(va==1){document.getElementById("listarticle").style.display="none";va=0;}
+            }
+    </script>
+    <nav class="nav">
+            <ul>
+				<li><a href="../index.html" class="menu">BING2213</a>
+					<ul style="color: white"><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+					</ul>
+				</li>
+                <li><a href="../HTMLS/gamedesign_home.html" class="menu">GAME DESIGN</a>
+                    <ul>
+						<li>
+							<a href="javascript:" onClick="showgamelist()">GAMES</a>
+							<ul id="listgame">
+								<li><a href="../HTMLS/gamedesign_games_HH.html">-HEADHUNTING</a></li>
+								<li><a href="../HTMLS/gamedesign_games_RB.html">-ROBOTBUILDING</a></li>
+								<li><a href="../HTMLS/gamedesign_games_SFD.html">-STRUGGLE FOR DEATH</a></li>
+								<li><a href="../HTMLS/gamedesign_games_SH.html">-STOCKHOME</a></li>
+								<li><a href="../HTMLS/gamedesign_games_SMM.html">-TROLLEY PROBLEM</a></li>
+								<li><a href="../HTMLS/gamedesign_games_AM.html">-AIRPLANE MODE</a></li>
+								<li><a href="../HTMLS/gamedesign_games_GU.html">-GUERNICA</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:" onClick="showarticlelist()">WRITINGS</a>
+							<ul id="listarticle">
+								<li><a href="../HTMLS/gamedesign_articles_analysis.html">-ANALYSIS</a></li>
+								<li><a href="../HTMLS/gamedesign_articles_paper.html">-PAPER</a></li>
+								<li><a href="../HTMLS/gamedesign_articles_readingreport.html">-READING</a></li>
+							</ul>
+						</li>
+					</ul>
+                </li>
+                <li><a href="../HTMLS/works_home.html" class="menu">OTHER WORKS</a>
+					<ul>
+						<li><a href="../HTMLS/works_graphicdesign.html">GRAPHIC DESIGN</a></li>
+						<li><a href="../HTMLS/works_webdesign.html">WEB DESIGN</a></li>
+						<li><a href="../HTMLS/works_modeling.html">MODELING</a></li>
+						<li><a href="../HTMLS/works_painting.html">PAINTING&amp;ART</a></li>
+						<li><a href="../HTMLS/works_photographing.html">PHOTOGRAPHING</a></li>
+					</ul>
+				</li>
+                <li><a href="../HTMLS/aboutme_home.html" class="menu">ABOUT</a>
+					<ul>
+						<li><a href="../HTMLS/aboutme_experience.html">EXPERIENCE</a></li>
+						<li><a href="../HTMLS/aboutme_contactme.html">CONTACT</a></li>
+					</ul>
+				</li>
+           	</ul>              
+    </nav>
+	<div class="box_icon">
+		<a href="../index.html"><img src="../images/guide_b.png"></a>
+	</div>
 </head>
-
-<body>
-</body>
+<style>
+		.html{overflow: scroll;}
+		.contents {
+			color:white;
+			font-size: 10vh;
+			font-weight: 800;
+			}
+		.words{height: 70vh;padding-top: 10px;}
+		.line-in-words{
+			position: absolute;
+			margin: 0;
+			left: 15%;
+			top: 30%;
+		}
+		.img1 {
+			height: 30vh;
+			background-image:url("../images/img_games/AM_prototype_1.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img2 {
+			height: 30vh;
+			background-image:url("../images/img_games/RB_prototype_7.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img3 {
+			height: 30vh;
+			background-image:url("../images/img_games/RB_prototype_5.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img4 {
+			height: 30vh;
+			background-image:url("../images/img_games/AM_prototype_1.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img5 {
+			height: 30vh;
+			background-image:url("../images/img_games/RB_prototype_7.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img6 {
+			height: 30vh;
+			background-image:url("../images/img_games/RB_prototype_5.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.img7 {
+			height: 30vh;
+			background-image:url("../images/img_games/RB_prototype_5.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center center;
+			}
+		.borderbetween{
+			position: relative;
+			height: 3vh;
+		}
+	</style>
+	<div class="contents">
+		<div class="img1" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_RB.html" style="color:white;text-decoration: none;">ROBOTBUILDING</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img2" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_SFD.html" style="color:white;text-decoration: none;">STRUGGLE FOR DEATH</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img3" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_AM.html" style="color:white;text-decoration: none;">AIRPLANE MODE</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img4" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_HH.html" style="color:white;text-decoration: none;">HEADHUNTING</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img5" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_SH.html" style="color:white;text-decoration: none;">STOCKHOME</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img6" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_SMM.html" style="color:white;text-decoration: none;">TROLLEY PROBLEM</a>
+			</div>
+		</div>
+		<div class="borderbetween"></div>
+		<div class="img7" style="line-height: 20vh;">
+			<div style="margin:0;position: relative;top:8%;text-align: right">
+				<a href="../HTMLS/gamedesign_games_GU.html" style="color:white;text-decoration: none;">GUERNICA</a>
+			</div>
+		</div>
+	</div>
 </html>

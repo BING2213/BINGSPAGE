@@ -4,10 +4,12 @@
     <title>BING2213</title>
     <link rel="Shortcut Icon" href="./icon/icon.ico" type="image/icon" />
     <link rel="stylesheet" href="./css/start.css">
-    <div class="logoimg" align="center"><img src="./images/GLITCH.gif" alt="LOGO_Glitch" width="100%"></div>
+	<div class="logoimg" style="background-size: cover;background-position: center center;">
+		<img src="./images/GLITCH.gif" alt="LOGO_Glitch" width="100%"></div>
 	<script>
 		var vg=0;
 		var va=0;
+		var vg=0;
 		function showgamelist(){
 			if (vg==0)
 			{document.getElementById("listgame").style.display="block";vg=1;}
@@ -21,8 +23,8 @@
 	</script>
     <nav class="nav">
             <ul>
-				<li><a href="./index.html" class="menu" id="menu_title">BING2213</a>
-					<ul style="color: white;transition: display 1s;"><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
+				<li><a href="./index.html" class="menu">BING2213</a>
+					<ul style="color: white;"><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
 						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
 						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
 						<li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li><li>BING2213</li>
@@ -32,7 +34,7 @@
                 <li><a href="./HTMLS/gamedesign_home.html" class="menu">GAME DESIGN</a>
                     <ul>
 						<li>
-							<a href="javascript:" onClick="showgamelist()">MY GAMES</a>
+							<a href="javascript:" onClick="showgamelist()">GAMES</a>
 							<ul id="listgame">
 								<li><a href="./HTMLS/gamedesign_games_HH.html">-HEADHUNTING</a></li>
 								<li><a href="./HTMLS/gamedesign_games_RB.html">-ROBOTBUILDING</a></li>
@@ -40,10 +42,11 @@
 								<li><a href="./HTMLS/gamedesign_games_SH.html">-STOCKHOME</a></li>
 								<li><a href="./HTMLS/gamedesign_games_SMM.html">-TROLLEY PROBLEM</a></li>
 								<li><a href="./HTMLS/gamedesign_games_AM.html">-AIRPLANE MODE</a></li>
+								<li><a href="./HTMLS/gamedesign_games_GU.html">-GUERNICA</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="javascript:" onClick="showarticlelist()">ARTICLES</a>
+							<a href="javascript:" onClick="showarticlelist()">WRITINGS</a>
 							<ul id="listarticle">
 								<li><a href="./HTMLS/gamedesign_articles_analysis.html">-ANALYSIS</a></li>
 								<li><a href="./HTMLS/gamedesign_articles_paper.html">-PAPER</a></li>
@@ -52,7 +55,7 @@
 						</li>
 					</ul>
                 </li>
-                <li><a href="./HTMLS/works_home.html" class="menu">MY WORKS</a>
+                <li><a href="./HTMLS/works_home.html" class="menu">OTHER WORKS</a>
 					<ul>
 						<li><a href="./HTMLS/works_graphicdesign.html">GRAPHIC DESIGN</a></li>
 						<li><a href="./HTMLS/works_webdesign.html">WEB DESIGN</a></li>
@@ -61,17 +64,16 @@
 						<li><a href="./HTMLS/works_photographing.html">PHOTOGRAPHING</a></li>
 					</ul>
 				</li>
-                <li><a href="./HTMLS/aboutme_home.html" class="menu">ABOUT ME</a>
+                <li><a href="./HTMLS/aboutme_home.html" class="menu">ABOUT</a>
 					<ul>
 						<li><a href="./HTMLS/aboutme_experience.html">EXPERIENCE</a></li>
-						<li><a href="./HTMLS/aboutme_photos.html">PHOTOS</a></li>
-						<li><a href="./HTMLS/aboutme_contactme.html">CONTACT ME</a></li>
+						<li><a href="./HTMLS/aboutme_contactme.html">CONTACT</a></li>
 					</ul>
 				</li>
            	</ul>              
     </nav>
 	<div class="box_icon">
-        <a href="./index.html"><img src="./images/guide_b.png"></a>
+        <a href="./index.html" id="box"><img src="./images/guide_b.png"></a>
 	</div>
 </head>
 <body style="margin: 0; padding:0;">
