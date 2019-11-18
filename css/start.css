@@ -21,10 +21,6 @@
     text-decoration: none;
 }
 
-#menu_title:hover{
-	background-color:red;
-	transition: background-color 0.5s;
-}
 a{
 	margin-right: 50px;
 }
@@ -49,7 +45,7 @@ a{
 	top: 0px;
 }
 
-.nav li ul li a{
+.nav ul li ul li a{
 	position: relative;
 	color: white;
 	text-decoration: none;
@@ -57,7 +53,7 @@ a{
 	padding:0px;
 	margin-left: 0px;
 }
-.nav li ul li a:hover{
+.nav ul li ul li a:hover{
 	background-color: white;
 	color: black;
 
@@ -85,12 +81,9 @@ body{
 	position: fixed;
 	width: 100px;
 	height: 100px;
-	top: 80%;
+	top: 85%;
 	left: 85%;
 	z-index: 999;
-}
-.box_icon:hover{
-    background-image:url(/images/guide_w.png)
 }
 .bar{
 	background-image: url("../images/LOGO_long_white.png");
@@ -99,13 +92,13 @@ body{
 	background-size: contain;
 	background-attachment: scroll;
 	opacity: 0.4;
-	transition: background-image 5s;
+	transition: background-image 1s;
 }
 .bar:hover{
 	background-image: url("../images/LOGO_long_black.png");
     background-size: contain;
 	background-attachment: scroll;
-	transition: background-image 5s;
+	transition: background-image 1s;
 
 }
 .inbar{
@@ -117,4 +110,10 @@ body{
 	font-weight: bolder;
 	font-size: 200%;
 	z-index:998;
+}
+p{
+	color: white;
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: 200%;
 }
